@@ -1,138 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Veltor (VLT) — Fast, Private, Decentralized</title>
-  <meta name="description" content="Veltor (VLT) is a next-generation cryptocurrency combining speed, privacy, and real-world Web3 usability.">
-  <meta name="keywords" content="Veltor, VLT, crypto, token, Web3, fast, private, decentralized, Ethereum">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Veltor (VLT) | Fast. Private. Decentralized.</title>
+  <meta name="description" content="Veltor (VLT) is a next-generation cryptocurrency that combines transaction speed like Ripple, privacy like Monero, and real-world Web3 utility.">
+  <meta name="keywords" content="Veltor, VLT, crypto, token, Web3, DeFi, privacy">
   <meta name="author" content="Veltor Team">
-  <link rel="icon" href="logo_veltortoken_web.png" type="image/png" />
+  <link rel="icon" href="logo.png" type="image/png">
   <style>
     body {
       font-family: Arial, sans-serif;
       background-color: #0d0d0d;
       color: white;
       margin: 0;
-      padding: 0 20px;
     }
     header {
       background: linear-gradient(90deg, #00ccff, #7c3aed);
-      padding: 20px;
       text-align: center;
+      padding: 40px 20px;
     }
     header img {
       width: 100px;
-      height: auto;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
-    h1 {
+    header h1 {
       margin: 0;
+    }
+    .lang-switch {
+      margin-top: 20px;
+    }
+    .lang-switch button {
+      margin: 0 10px;
+      padding: 10px 20px;
+      background-color: #7c3aed;
+      border: none;
+      border-radius: 5px;
+      color: white;
+      cursor: pointer;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
     }
     h2 {
       color: #00ccff;
     }
-    .section {
-      max-width: 900px;
-      margin: 40px auto;
-    }
     table {
       width: 100%;
       border-collapse: collapse;
-      margin-top: 10px;
+      margin-bottom: 30px;
+    }
+    table, th, td {
+      border: 1px solid #555;
     }
     th, td {
-      border: 1px solid #444;
-      padding: 8px;
-      text-align: left;
+      padding: 10px;
+      text-align: center;
     }
     footer {
+      background-color: #1a1a1a;
       text-align: center;
-      margin-top: 50px;
       padding: 20px;
-      border-top: 1px solid #333;
-      font-size: 0.9em;
-    }
-    .lang-switch {
-      text-align: right;
-      margin: 10px;
-    }
-    .lang-switch button {
-      background-color: #7c3aed;
-      color: white;
-      border: none;
-      padding: 8px 14px;
-      cursor: pointer;
-      border-radius: 4px;
+      font-size: 14px;
     }
     a {
-      color: #7c3aed;
+      color: #c084fc;
     }
   </style>
 </head>
 <body>
-
-  <div class="lang-switch">
-    <button onclick="changeLanguage('ua')">Українська</button>
-  </div>
-
   <header>
-    <img src="logo_veltortoken_web.png" alt="Veltor Logo" />
-    <h1>Veltor (VLT)</h1>
+    <img src="logo.png" alt="Veltor Logo">
+    <h1>VELTOR (VLT)</h1>
     <p>Fast. Private. Decentralized.</p>
+    <div class="lang-switch">
+      <button onclick="changeLanguage('en')">English</button>
+      <button onclick="changeLanguage('ua')">Українська</button>
+    </div>
   </header>
 
-  <section class="section">
+  <section>
     <h2>About the Project</h2>
-    <p>Veltor (VLT) is a next-generation cryptocurrency combining Ripple's speed, Monero's privacy, and real-world Web3 usability.</p>
+    <p>Veltor (VLT) is a next-generation cryptocurrency that combines the transaction speed of Ripple, the privacy of Monero, and the real-world utility of Web3.</p>
   </section>
 
-  <section class="section">
+  <section>
     <h2>Tokenomics</h2>
-    <p>Total Supply: <strong>50,000,000 VLT</strong></p>
-    <p>Frozen: <strong>20,000,000 VLT</strong></p>
+    <p><strong>Total supply:</strong> 50,000,000 VLT<br>
+    <strong>Locked:</strong> 20,000,000 VLT</p>
     <table>
-      <tr><th>Category</th><th>Amount</th><th>%</th></tr>
-      <tr><td>Airdrop (3 rounds)</td><td>1,500,000 VLT</td><td>3%</td></tr>
-      <tr><td>Presale to Investors</td><td>2,000,000 VLT</td><td>4%</td></tr>
-      <tr><td>DEX Liquidity</td><td>2,000,000 VLT</td><td>4%</td></tr>
-      <tr><td>Marketing</td><td>2,500,000 VLT</td><td>5%</td></tr>
-      <tr><td>DAO & Partners</td><td>750,000 VLT</td><td>1.5%</td></tr>
-      <tr><td>Stabilization Fund</td><td>1,500,000 VLT</td><td>3%</td></tr>
-      <tr><td>Buyback Reserve</td><td>1,500,000 VLT</td><td>3%</td></tr>
-      <tr><td>Team & Reserve</td><td>15,000,000 VLT</td><td>30%</td></tr>
-      <tr><td>Frozen (long term)</td><td>20,000,000 VLT</td><td>40%</td></tr>
+      <tr>
+        <th>Category</th>
+        <th>Amount (VLT)</th>
+        <th>Percentage</th>
+      </tr>
+      <tr><td>Airdrop (3 rounds)</td><td>1,500,000</td><td>3%</td></tr>
+      <tr><td>DEX Liquidity</td><td>2,000,000</td><td>4%</td></tr>
+      <tr><td>Marketing</td><td>2,500,000</td><td>5%</td></tr>
+      <tr><td>Partnerships, DAO, Dev</td><td>750,000</td><td>1.5%</td></tr>
+      <tr><td>Stabilization Fund</td><td>1,500,000</td><td>3%</td></tr>
+      <tr><td>Buyback Fund</td><td>1,500,000</td><td>3%</td></tr>
+      <tr><td>Team + Reserve</td><td>15,000,000</td><td>30%</td></tr>
+      <tr><td>Locked (Long term)</td><td>20,000,000</td><td>40%</td></tr>
+      <tr><th>Total</th><th>50,000,000</th><th>100%</th></tr>
     </table>
   </section>
 
-  <section class="section">
+  <section>
     <h2>Roadmap</h2>
     <ul>
-      <li><strong>Q2 2025</strong> — VLT Token Launch</li>
-      <li><strong>Q2 2025</strong> — Airdrop Campaign #1</li>
-      <li><strong>Q3 2025</strong> — Launch of VLT/ETH Pair on DEX</li>
-      <li><strong>Q4 2025</strong> — Investor Round & CEX Preparation</li>
-      <li><strong>Q1 2026</strong> — Potential listing on top exchanges</li>
+      <li><strong>Q2 2025</strong> — Token launch, Airdrop #1, website, community, presale</li>
+      <li><strong>Q3 2025</strong> — DEX launch (VLT/ETH), Airdrop #2, marketing, whitepaper release</li>
+      <li><strong>Q4 2025</strong> — Airdrop #3, listing on CoinMarketCap & CoinGecko, smart contract audit</li>
+      <li><strong>Q1 2026</strong> — Apply for CEX listings, DAO launch, new ecosystem features</li>
+      <li><strong>Q2 2026+</strong> — Team expansion, dApp development, cross-chain bridge, testnet/mainnet</li>
     </ul>
   </section>
 
-  <section class="section">
-    <h2>Contact & Socials</h2>
-    <p><strong>Email:</strong> <a href="mailto:veltortoken@gmail.com">veltortoken@gmail.com</a></p>
-    <ul>
-      <li><a href="https://t.me/veltortoken" target="_blank">Telegram</a></li>
-      <li><a href="https://x.com/veltor_token" target="_blank">Twitter</a></li>
-    </ul>
+  <section>
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:veltortoken@gmail.com">veltortoken@gmail.com</a></p>
+    <p><a href="https://t.me/veltortoken" target="_blank">Telegram</a> | <a href="https://x.com/veltor_token" target="_blank">Twitter</a></p>
   </section>
 
   <footer>
-    &copy; 2025 Veltor Token. All rights reserved.
+    © 2025 Veltor Token. All rights reserved.
   </footer>
 
   <script>
     function changeLanguage(lang) {
       if (lang === 'ua') {
         window.location.href = "https://ivan246st.github.io/veltor-site/ua/";
+      } else {
+        window.location.href = "https://ivan246st.github.io/veltor-site/";
       }
     }
   </script>
