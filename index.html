@@ -1,132 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Veltor (VLT) | Fast. Private. Decentralized.</title>
-  <meta name="description" content="Veltor (VLT) is a next-generation cryptocurrency that combines transaction speed like Ripple, privacy like Monero, and real-world Web3 utility.">
-  <meta name="keywords" content="Veltor, VLT, crypto, token, Web3, DeFi, privacy">
-  <meta name="author" content="Veltor Team">
-  <link rel="icon" href="logo.png" type="image/png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Veltor (VLT) — криптовалюта нового покоління зі швидкістю, приватністю та реальним застосуванням." />
+  <meta name="keywords" content="Veltor, VLT, криптовалюта, токен, Web3" />
+  <meta name="author" content="Veltor Team" />
+  <title>Veltor (VLT) – Швидкий, Приватний, Децентралізований</title>
+  <link rel="icon" href="../logo.png" type="image/png" />
   <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0d0d0d;
-      color: white;
-      margin: 0;
-    }
-    header {
-      background: linear-gradient(90deg, #00ccff, #7c3aed);
-      text-align: center;
-      padding: 40px 20px;
-    }
-    header img {
-      width: 100px;
-      margin-bottom: 20px;
-    }
-    header h1 {
-      margin: 0;
-    }
-    .lang-switch {
-      margin-top: 20px;
-    }
-    .lang-switch button {
-      margin: 0 10px;
-      padding: 10px 20px;
-      background-color: #7c3aed;
-      border: none;
-      border-radius: 5px;
-      color: white;
-      cursor: pointer;
-    }
-    section {
-      padding: 20px;
-      max-width: 900px;
-      margin: auto;
-    }
-    h2 {
-      color: #00ccff;
-    }
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-bottom: 30px;
-    }
-    table, th, td {
-      border: 1px solid #555;
-    }
-    th, td {
-      padding: 10px;
-      text-align: center;
-    }
-    footer {
-      background-color: #1a1a1a;
-      text-align: center;
-      padding: 20px;
-      font-size: 14px;
-    }
-    a {
-      color: #c084fc;
-    }
+    body { font-family: Arial, sans-serif; background-color: #0d0d0d; color: white; margin: 0; padding: 0; }
+    header { background: linear-gradient(90deg, #00ccff, #7c3aed); padding: 40px 0; text-align: center; }
+    header img { width: 100px; height: auto; margin-bottom: 10px; }
+    h1 { margin: 10px 0; }
+    .language-switch { margin: 20px; text-align: center; }
+    .language-switch button { margin: 0 10px; padding: 8px 16px; background-color: #7c3aed; border: none; color: white; border-radius: 5px; cursor: pointer; }
+    section { padding: 20px; max-width: 800px; margin: auto; }
+    table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+    table, th, td { border: 1px solid white; }
+    th, td { padding: 10px; text-align: center; }
+    footer { text-align: center; margin-top: 30px; font-size: 14px; color: #aaa; }
+    a { color: #9370db; }
   </style>
 </head>
 <body>
   <header>
-    <img src="logo.png" alt="Veltor Logo">
+    <img src="../logo.png" alt="Veltor Logo">
     <h1>VELTOR (VLT)</h1>
-    <p>Fast. Private. Decentralized.</p>
-    <div class="lang-switch">
-      <button onclick="changeLanguage('en')">English</button>
-      <button onclick="changeLanguage('ua')">Українська</button>
-    </div>
+    <p>Швидкий. Приватний. Децентралізований.</p>
   </header>
 
-  <section>
-    <h2>About the Project</h2>
-    <p>Veltor (VLT) is a next-generation cryptocurrency that combines the transaction speed of Ripple, the privacy of Monero, and the real-world utility of Web3.</p>
-  </section>
+  <div class="language-switch">
+    <button onclick="changeLanguage('en')">English</button>
+    <button onclick="changeLanguage('ua')">Українська</button>
+  </div>
 
   <section>
-    <h2>Tokenomics</h2>
-    <p><strong>Total supply:</strong> 50,000,000 VLT<br>
-    <strong>Locked:</strong> 20,000,000 VLT</p>
+    <h2>Про проєкт</h2>
+    <p>Veltor (VLT) — це криптовалюта нового покоління, яка поєднує швидкість транзакцій як у Ripple, приватність як у Monero та зручність реального Web3-застосування.</p>
+
+    <h2>Токеноміка</h2>
+    <p>Загальний обсяг: <strong>50,000,000 VLT</strong><br>
+    Заморожено: <strong>20,000,000 VLT</strong></p>
+
     <table>
-      <tr>
-        <th>Category</th>
-        <th>Amount (VLT)</th>
-        <th>Percentage</th>
-      </tr>
-      <tr><td>Airdrop (3 rounds)</td><td>1,500,000</td><td>3%</td></tr>
-      <tr><td>DEX Liquidity</td><td>2,000,000</td><td>4%</td></tr>
-      <tr><td>Marketing</td><td>2,500,000</td><td>5%</td></tr>
-      <tr><td>Partnerships, DAO, Dev</td><td>750,000</td><td>1.5%</td></tr>
-      <tr><td>Stabilization Fund</td><td>1,500,000</td><td>3%</td></tr>
-      <tr><td>Buyback Fund</td><td>1,500,000</td><td>3%</td></tr>
-      <tr><td>Team + Reserve</td><td>15,000,000</td><td>30%</td></tr>
-      <tr><td>Locked (Long term)</td><td>20,000,000</td><td>40%</td></tr>
-      <tr><th>Total</th><th>50,000,000</th><th>100%</th></tr>
+      <tr><th>Категорія</th><th>Кількість</th><th>%</th></tr>
+      <tr><td>Airdrop (3 етапи)</td><td>1,500,000</td><td>3%</td></tr>
+      <tr><td>Продаж інвесторам</td><td>2,000,000</td><td>4%</td></tr>
+      <tr><td>Ліквідність на DEX</td><td>2,000,000</td><td>4%</td></tr>
+      <tr><td>Маркетинг</td><td>2,500,000</td><td>5%</td></tr>
+      <tr><td>Партнерства, DAO, розробка</td><td>750,000</td><td>1.5%</td></tr>
+      <tr><td>Фонд стабілізації</td><td>1,500,000</td><td>3%</td></tr>
+      <tr><td>Зворотний викуп</td><td>1,500,000</td><td>3%</td></tr>
+      <tr><td>Резерв і команда</td><td>15,000,000</td><td>30%</td></tr>
+      <tr><td>Заморожено (довгостроково)</td><td>20,000,000</td><td>40%</td></tr>
+      <tr><td><strong>Резерв екосистеми</strong></td><td>3,250,000</td><td>6.5%</td></tr>
     </table>
-  </section>
 
-  <section>
-    <h2>Roadmap</h2>
+    <h2>Дорожня карта</h2>
     <ul>
-      <li><strong>Q2 2025</strong> — Token launch, Airdrop #1, website, community, presale</li>
-      <li><strong>Q3 2025</strong> — DEX launch (VLT/ETH), Airdrop #2, marketing, whitepaper release</li>
-      <li><strong>Q4 2025</strong> — Airdrop #3, listing on CoinMarketCap & CoinGecko, smart contract audit</li>
-      <li><strong>Q1 2026</strong> — Apply for CEX listings, DAO launch, new ecosystem features</li>
-      <li><strong>Q2 2026+</strong> — Team expansion, dApp development, cross-chain bridge, testnet/mainnet</li>
+      <li><strong>Q2 2025</strong> — Запуск токена VLT, Airdrop #1, сайт, комʼюніті, передпродаж</li>
+      <li><strong>Q3 2025</strong> — Запуск пари VLT/ETH на DEX, Airdrop #2, маркетинг, реліз whitepaper</li>
+      <li><strong>Q4 2025</strong> — Airdrop #3, додавання на CoinMarketCap і CoinGecko, аудит контракту</li>
+      <li><strong>Q1 2026</strong> — Лістинг на централізованих біржах (CEX)</li>
+      <li><strong>Q2 2026+</strong> — Розширення команди, dApps, cross-chain, тестнет/майнет</li>
     </ul>
-  </section>
 
-  <section>
-    <h2>Contact</h2>
-    <p>Email: <a href="mailto:veltortoken@gmail.com">veltortoken@gmail.com</a></p>
-    <p><a href="https://t.me/veltortoken" target="_blank">Telegram</a> | <a href="https://x.com/veltor_token" target="_blank">Twitter</a></p>
+    <h2>Контакти</h2>
+    <p>Пошта: <a href="mailto:veltortoken@gmail.com">veltortoken@gmail.com</a><br>
+    <a href="https://t.me/veltortoken" target="_blank">Telegram</a><br>
+    <a href="https://x.com/veltor_token" target="_blank">Twitter</a></p>
   </section>
 
   <footer>
-    © 2025 Veltor Token. All rights reserved.
+    © 2025 Veltor Token. Усі права захищені.
   </footer>
 
   <script>
