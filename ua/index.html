@@ -1,155 +1,132 @@
 <!DOCTYPE html>
-<html lang="uk">
+<html lang="ua">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Veltor (VLT) — криптовалюта нового покоління з швидкістю, приватністю та простотою використання для Web3.">
-  <meta name="keywords" content="Veltor, VLT, криптовалюта, токен, Web3, блокчейн">
-  <meta name="author" content="Veltor Team">
-  <link rel="icon" href="../logo_veltortoken_web.png" type="image/png" />
-  <title>Veltor (VLT) — Швидка, приватна, децентралізована криптовалюта</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #0d0d0d;
-      color: #ffffff;
-      margin: 0;
-      padding: 0;
-    }
-
-    header {
-      background: linear-gradient(90deg, #00ccff, #7c3aed);
-      padding: 20px;
-      text-align: center;
-    }
-
-    header img {
-      width: 80px;
-      height: auto;
-      margin-bottom: 10px;
-    }
-
-    header h1 {
-      margin: 0;
-      font-size: 2em;
-    }
-
-    nav {
-      text-align: center;
-      margin: 15px;
-    }
-
-    nav button {
-      background: #7c3aed;
-      color: #fff;
-      border: none;
-      padding: 10px 20px;
-      margin: 0 10px;
-      cursor: pointer;
-      font-size: 14px;
-      border-radius: 5px;
-    }
-
-    section {
-      max-width: 800px;
-      margin: auto;
-      padding: 20px;
-    }
-
-    h2 {
-      color: #00ccff;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 10px;
-    }
-
-    th, td {
-      border: 1px solid #ffffff33;
-      padding: 8px;
-      text-align: left;
-    }
-
-    footer {
-      text-align: center;
-      margin: 20px;
-      font-size: 0.9em;
-      color: #aaaaaa;
-    }
-
-    a {
-      color: #7c3aed;
-      text-decoration: none;
-    }
-
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VELTOR (VLT) — Швидка. Приватна. Децентралізована.</title>
+    <meta name="description" content="Veltor (VLT) — це криптовалюта нового покоління, яка поєднує швидкість транзакцій як у Ripple, приватність як у Monero та зручність реального Web3-застосування.">
+    <meta name="keywords" content="Veltor, VLT, криптовалюта, токен, Web3, DeFi, приватність, Ethereum">
+    <meta name="author" content="Veltor Team">
+    <link rel="icon" href="../logo.png" type="image/png" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #0d0d0d;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(90deg, #00ccff, #7c3aed);
+            padding: 40px 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            text-align: center;
+            margin-top: 15px;
+        }
+        nav button {
+            background-color: #7c3aed;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        section {
+            padding: 30px 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+        h2 {
+            color: #00ccff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #888;
+            padding: 10px;
+            text-align: left;
+        }
+        footer {
+            background-color: #111;
+            text-align: center;
+            padding: 15px;
+            font-size: 0.9em;
+        }
+        a {
+            color: #b28bff;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <img src="../logo_veltortoken_web.png" alt="Veltor Logo" />
-    <h1>Veltor (VLT)</h1>
-  </header>
+    <header>
+        <img src="../logo.png" alt="Veltor Logo" width="100" height="100">
+        <h1>Veltor (VLT)</h1>
+        <p>Швидка. Приватна. Децентралізована.</p>
+        <nav>
+            <button onclick="changeLanguage('en')">English</button>
+            <button onclick="changeLanguage('ua')">Українська</button>
+        </nav>
+    </header>
 
-  <nav>
-    <button onclick="changeLanguage('en')">English</button>
-    <button disabled>Українська</button>
-  </nav>
+    <section>
+        <h2>Про проєкт</h2>
+        <p>Veltor (VLT) — це криптовалюта нового покоління, яка поєднує швидкість транзакцій як у Ripple, приватність як у Monero та зручність реального Web3-застосування.</p>
 
-  <section>
-    <h2>Про проєкт</h2>
-    <p>Veltor (VLT) — це криптовалюта нового покоління, яка поєднує швидкість транзакцій як у Ripple, приватність як у Monero та зручність реального Web3-застосування.</p>
+        <h2>Токеноміка</h2>
+        <p>Загальний обсяг: <strong>50,000,000 VLT</strong><br>Заморожено: <strong>20,000,000 VLT</strong></p>
+        <table>
+            <tr><th>Категорія</th><th>Кількість</th><th>%</th></tr>
+            <tr><td>Airdrop (3 етапи)</td><td>1,500,000 VLT</td><td>3%</td></tr>
+            <tr><td>Пул ліквідності</td><td>2,000,000 VLT</td><td>4%</td></tr>
+            <tr><td>Маркетинг</td><td>2,500,000 VLT</td><td>5%</td></tr>
+            <tr><td>Партнерства, DAO, розробка</td><td>750,000 VLT</td><td>1.5%</td></tr>
+            <tr><td>Фонд стабілізації</td><td>1,500,000 VLT</td><td>3%</td></tr>
+            <tr><td>Зворотній викуп</td><td>1,500,000 VLT</td><td>3%</td></tr>
+            <tr><td>Резерв і команда</td><td>15,000,000 VLT</td><td>30%</td></tr>
+            <tr><td>Заморожено (довгостроково)</td><td>20,000,000 VLT</td><td>40%</td></tr>
+        </table>
 
-    <h2>Токеноміка</h2>
-    <p>Загальний обсяг: <strong>50,000,000 VLT</strong></p>
-    <p>Заморожено: <strong>20,000,000 VLT</strong></p>
-    <p>Airdrop: <strong>1,500,000 VLT</strong></p>
+        <h2>Дорожня карта</h2>
+        <ul>
+            <li><strong>Q2 2025</strong> — Запуск токена VLT, Airdrop #1, сайт, спільнота, пресейл</li>
+            <li><strong>Q3 2025</strong> — Запуск DEX (VLT/ETH), Airdrop #2, маркетинг, реліз whitepaper</li>
+            <li><strong>Q4 2025</strong> — Airdrop #3, лістинг на CoinMarketCap & CoinGecko, аудит смарт-контракту</li>
+            <li><strong>Q1 2026</strong> — Можливий лістинг на CEX, запуск DAO, нові функції</li>
+            <li><strong>Q2 2026+</strong> — Розширення команди, розробка dApp, кросчейн, тестнет/майннет</li>
+        </ul>
+        
+        <h2>Контактна пошта</h2>
+        <p><a href="mailto:veltortoken@gmail.com">veltortoken@gmail.com</a></p>
 
-    <table>
-      <tr><th>Категорія</th><th>Кількість</th><th>%</th></tr>
-      <tr><td>Airdrop (3 етапи)</td><td>1,500,000 VLT</td><td>3%</td></tr>
-      <tr><td>Пул ліквідності</td><td>2,000,000 VLT</td><td>4%</td></tr>
-      <tr><td>Маркетинг</td><td>2,500,000 VLT</td><td>5%</td></tr>
-      <tr><td>Партнерства, DAO, розробка</td><td>750,000 VLT</td><td>1.5%</td></tr>
-      <tr><td>Фонд стабілізації</td><td>1,500,000 VLT</td><td>3%</td></tr>
-      <tr><td>Зворотній викуп</td><td>1,500,000 VLT</td><td>3%</td></tr>
-      <tr><td>Резерв і команда</td><td>15,000,000 VLT</td><td>30%</td></tr>
-      <tr><td>Заморожено (довгостроково)</td><td>20,000,000 VLT</td><td>40%</td></tr>
-    </table>
+        <h2>Наші соцмережі</h2>
+        <ul>
+            <li><a href="https://t.me/veltortoken" target="_blank">Telegram</a></li>
+            <li><a href="https://x.com/veltor_token" target="_blank">Twitter</a></li>
+        </ul>
+    </section>
 
-    <h2>Дорожня карта</h2>
-    <ul>
-      <li><strong>Q2 2025</strong> — Запуск токена VLT</li>
-      <li><strong>Q2 2025</strong> — Airdrop кампанія #1</li>
-      <li><strong>Q3 2025</strong> — Запуск пари VLT/ETH на DEX</li>
-      <li><strong>Q4 2025</strong> — Залучення інвесторів, підготовка до CEX</li>
-      <li><strong>Q1 2026</strong> — Можливий лістинг на великі біржі</li>
-    </ul>
+    <footer>
+        © 2025 Veltor Token. Усі права захищені.
+    </footer>
 
-    <h2>Наші соцмережі</h2>
-    <ul>
-      <li><a href="https://t.me/veltortoken" target="_blank">Telegram</a></li>
-      <li><a href="https://x.com/veltor_token" target="_blank">Twitter</a></li>
-    </ul>
-
-    <h2>Контактна пошта</h2>
-    <p><a href="mailto:veltortoken@gmail.com">veltortoken@gmail.com</a></p>
-  </section>
-
-  <footer>
-    © 2025 Veltor Token. Усі права захищені.
-  </footer>
-
-  <script>
-    function changeLanguage(lang) {
-      if (lang === 'en') {
-        window.location.href = "https://ivan246st.github.io/veltor-site/";
-      }
-    }
-  </script>
+    <script>
+        function changeLanguage(lang) {
+            if (lang === 'ua') {
+                window.location.href = "https://ivan246st.github.io/veltor-site/ua/";
+            } else {
+                window.location.href = "https://ivan246st.github.io/veltor-site/";
+            }
+        }
+    </script>
 </body>
 </html>
